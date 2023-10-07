@@ -1,14 +1,14 @@
-#include<stdio.h>
-
-int main(void)
+#include <stdio.h>
+main (void)
 {
-    int a,b,c;
-    printf("enter the first value:");
-    scanf("%d",&a);
-    printf("enter second value:");
-    scanf("%d",&b);
-    c = a+b;
-    printf("%d+%d=%d\n",a,b,c);
-    return 0;
-}
+ int b;
+printf("enter value");
+ scanf("%d",&b);
+ if(b < 0);
+ {
+     printf("the value is a negative ");
+     return 0;
 
+ }
+ return 0;
+}
